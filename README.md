@@ -1,7 +1,9 @@
 # Gerador de senhas para redes WiFi Claro-NET para Brute-Force
 
   ### Script simples que desenvolvido a tempos com o objetivo da criação de uma forma de automatização de wordlists para redes wifi não configuradas da Claro-NET, isto é, das que ainda utilizam o login padrão configurado.
-  
+![image](https://user-images.githubusercontent.com/76860503/199823261-6601ed11-83a9-432b-a65d-5f9c5fa21539.png)
+
+
   O padrão é, geralmente, o nome da rede com um código de login, para a senha é usado o mesmo código com mais dois dígitos.
   Por exemplo: `CLARO_2G40D231` ou `CLARO_5G40D231` é o nome das redes reconhecidas em sua varredura.
   A senha padrão dela veio como `40D231EF`, ou seja, pegou o código posterior ao nome da rede 2G ou 5G e adicionou dois novos caracteres.
@@ -19,6 +21,7 @@
   Eu não tinha postado aqui antes pois, além de ser super simples e fácil de fazer, eu queria publicar um script mais completo que já tenha a opção de fazer o brute force direto, assim automatizaria ainda mais as coisas.
   Ainda vou separar um tempo para desenvolver ele e publicar aqui também, enquanto isso fiquem com essa ferramenta que já funciona.
 
+  **Lembrando que este é um conteúdo criado com fins acadêmicos e não me responsabilizo por nenhum ato de terceiro, aqui é algo para estudo e que mostra a importância da configuração adequada de sua rede interna, coisa que a própria operadora recomenda.**
 
 ## Modo de usar & Requisitos
 **Padrão de qualquer script shell**
@@ -31,8 +34,8 @@
      `sudo mv wlgenerator.sh /usr/bin` para executá-lo de qualquer diretório
      
        usando somente o comando `./wlgenerator.sh`
- 
- ![image](https://user-images.githubusercontent.com/76860503/199819530-58bb37a9-5fdc-4ba8-873f-6fe16f313e63.png)
+       
+  ![image](https://user-images.githubusercontent.com/76860503/199819530-58bb37a9-5fdc-4ba8-873f-6fe16f313e63.png)
  - Colocar o nome da wifi como no exemplo e esperar a wordlist ser feita.
    - Quando ficar pronta ela vai abrir na tela do terminal, poderá apertar Q para fechar, End pra ir até a ultima linha, PagDn ou seta baixo para descer, PgUp ou seta cima para subir e Home pra voltar a primeira linha. 
    
