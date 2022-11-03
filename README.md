@@ -20,12 +20,13 @@
   Ainda vou separar um tempo para desenvolver ele e publicar aqui também, enquanto isso fiquem com essa ferramenta que já funciona.
 
 
-## Modo de usar || Requisitos
+## Modo de usar & Requisitos
 **Padrão de qualquer script shell**
  -  `bash wlgenerator.sh` já funciona normal.
  -  `chmod +x wlgenerator.sh` para poder executá-lo `./wlgenerator.sh`
     - Mova-o pra dentro de /usr/bin: 
-     `sudo mv wlgenerator.sh /usr/bin` para executá-lo de qualquer diretório 
-      usando somente o comando `./wlgenerator.sh`
+     `sudo mv wlgenerator.sh /usr/bin` para executá-lo de qualquer diretório
+     
+       usando somente o comando `./wlgenerator.sh`
  
  **Requisito de uso**: Terminal ; WSL2 {windows} // {Linux} || Crunch
