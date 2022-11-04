@@ -10,8 +10,8 @@
   
   Não sei se este ainda é o padrão usado, mas faz tempo que eu vejo que os logins padrões da claro são bem simples de se entender e lembrar.
   Na minha casa, na casa de minha mãe e na casa de meu avô as senhas estavam sendo usadas a padrão que aparece no modem, assim percebi só com o tempo, sem querer, uma forma que facilitava a memorização da senha padrão aleatória.
-  Eu selecionava qual rede queria, se era a 2G ou outra - como a 5G dessa rede que eu nem tenho como acessar por não ter equipamento que reconhece ainda -, me conectava e pronto. Eu lembrava via muita repetição, ou precisava ir ver mesmo a senha, até perceber que a entre o nome da rede tinha quase toda a chave, agora era só lembrar de duas letras, então facilitou lembrar da senha.
-  Após esse acontecimento, acabei pensando que ficaria super tranquilo de criar uma wordlist para um ataque de força bruta nessas redes, tendo em vista que será sempre letra maiuscula e sempre contendo apenas mais dois caracteres do alfabeto. 
+  Eu selecionava qual rede queria, se era a 2G ou outra - como a 5G dessa rede que eu nem tenho como acessar por não ter equipamento que reconhece ainda -, me conectava e pronto. Eu só lembrava via repetição da senha direto ou precisava ver mesmo a senha no modem, até perceber que a entre o nome da rede tinha quase toda a chave, agora era só lembrar de duas letras, então facilitou lembrar da senha.
+  Após esse acontecimento, acabei pensando que ficaria super tranquilo de criar uma wordlist para um ataque de força bruta nessas redes, tendo em vista que será sempre letra maiuscula e sempre contendo apenas mais dois caracteres do alfabeto. Caso possa vir outros caracteres, ainda sim fica fácil a criação da wordlist por ser apenas dois dígitos.
   Criar uma wordlist de apenas dois caracteres simples (todos com caps ou todos sem caps, sem meio termo) é algo BEM tranquilo, rápido e fácil de fazer, usando ferramentas simples como crunch, por exemplo.
  
   É bem tranquilo utilizar crunch para acabar criando uma wordlist de apenas dois caracteres com o padrão "40D231" de início. 
