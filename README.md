@@ -9,7 +9,7 @@
   A senha padrão dela veio como `40D231EF`, ou seja, pegou o código posterior ao nome da rede 2G ou 5G e adicionou dois novos caracteres.
   
   Não sei se este ainda é o padrão usado, mas faz tempo que eu vejo que os logins padrões da claro são bem simples de se entender e lembrar.
-  Na minha casa, na casa de minha mãe e na casa de meu avô as senhas estavam sendo usadas a padrão que aparece no modem, assim percebi só com o tempo, sem quere, uma forma que facilitava a memorização da senha padrão aleatória.
+  Na minha casa, na casa de minha mãe e na casa de meu avô as senhas estavam sendo usadas a padrão que aparece no modem, assim percebi só com o tempo, sem querer, uma forma que facilitava a memorização da senha padrão aleatória.
   Eu selecionava qual rede queria, se era a 2G ou outra - como a 5G dessa rede que eu nem tenho como acessar por não ter equipamento que reconhece ainda -, me conectava e pronto. Eu lembrava via muita repetição, ou precisava ir ver mesmo a senha, até perceber que a entre o nome da rede tinha quase toda a chave, agora era só lembrar de duas letras, então facilitou lembrar da senha.
   Após esse acontecimento, acabei pensando que ficaria super tranquilo de criar uma wordlist para um ataque de força bruta nessas redes, tendo em vista que será sempre letra maiuscula e sempre contendo apenas mais dois caracteres do alfabeto. 
   Criar uma wordlist de apenas dois caracteres simples (todos com caps ou todos sem caps, sem meio termo) é algo BEM tranquilo, rápido e fácil de fazer, usando ferramentas simples como crunch, por exemplo.
