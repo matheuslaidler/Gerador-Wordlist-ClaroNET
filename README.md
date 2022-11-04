@@ -1,6 +1,6 @@
-# Gerador de senhas para redes WiFi Claro-NET para Brute-Force
+# Gerador de senhas para qualquer rede Claro-NET padrão
 
-  ### Script simples que desenvolvido a tempos com o objetivo da criação de uma forma de automatização de wordlists para redes wifi não configuradas da Claro-NET, isto é, das que ainda utilizam o login padrão configurado.
+  ### Script simples que desenvolvido a tempos com o objetivo da criação de uma forma de automatização de wordlists para redes wifi não configuradas da Claro-NET, isto é, das que ainda utilizam o login padrão configurado. A funcionalidade deste script é justamente a criação de uma wordlist que vai certamente conter a senha padrão dentro para ser usado em um ataque de força bruta, conhecido como brute force, para descobrir se a rede usa senha padrão e/ou para ter acesso a ela.
 ![image](https://user-images.githubusercontent.com/76860503/199823261-6601ed11-83a9-432b-a65d-5f9c5fa21539.png)
 
 
