@@ -5,7 +5,7 @@ echo "Digite o nome da sua rede WIFI (ex: CLARO_2G40D431)"
 read wifi
 echo "Wordlist está sendo criada..."
 sleep 1.5s
-echo $wifi | cut -d "G" -f 2 > wifi.txt && crunch 8 8 ABCDEFGHIJKLMNOPQRSTUVXZ1234567890 -t $(cat wifi.txt)@@ -o wlclaro.txt &>/dev/null && rm wifi.txt
+echo $wifi | cut -d "G" -f 2 > wifi.txt && crunch 8 8 ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 -t @@$(cat wifi.txt) -o wlclaro.txt &>/dev/null && rm wifi.txt
 sleep 1.5s
 echo "Wordlist criada com sucesso!!"
 sleep 1s
