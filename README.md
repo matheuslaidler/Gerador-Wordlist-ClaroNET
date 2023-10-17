@@ -1,4 +1,4 @@
-# Gerador de senhas para algumas redes C*** padrão
+# Encontrando senha de redes wireless específicas com padrão vulnerável
 
 **Precisei censurar o nome da operadora por ter sido notificado via e-mail para tirar do ar. Foi feito por meses e agora recoloquei com o nome censurado, assim evitando problemas para a marca e seus clientes, peço perdão pelo incomodo**
 
