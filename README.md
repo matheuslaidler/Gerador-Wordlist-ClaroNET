@@ -1,6 +1,10 @@
 # Encontrando senha de redes wireless específicas com padrão vulnerável
 
-**Precisei censurar o nome da operadora por ter sido notificado via e-mail para tirar do ar. Foi feito por meses e agora recoloquei com o nome censurado, assim evitando problemas para a marca e seus clientes, peço perdão pelo incomodo**
+
+###### *Nota de atualização: Redes de uma operadora específica tinham padrão totalente vulnerável, 2 dígitos hex + código aleatório já dado no nome da rede. Tinhamos retirados do ar por motivos legais, mesmo tendo sido feito com finalidade acadêmica e mostrar a importância de não usar as credenciais padrões do modem o qual qualquer pessoa tenha acesso. Reeditamos e tiramos qlqr identificação da operadora para ela não ser prejudicada. É válido falar que eu ainda utilizo seus serviços e o padrão atual dos modens já foram atualizados e não seguem mais essa lógica em 2023. O código é um criador de wordlist para o padrão antigo, ent quem ainda utiliza a rede de antes (como as que eu testei em 2021), ainda podem estar vulneráveis.*
+
+![image](https://github.com/matheuslaidler/Wireless_DefaultPassFinder_v1/assets/76860503/740d907c-00dc-4bf8-951e-dace7b87a340)
+
 
   #### Script simples desenvolvido a tempos com o objetivo da criação de uma forma de automatização para desenvolver wordlists de redes wifi não configuradas da operadora {censurado}, isto é, organizar uma wordlist certeira para descobrir a senha de uma rede que ainda utiliza o login padrão configurado - Atualização: Versões mais novas de modem com planos mais atuais já possuem um padrão corrigido - porém, pessoas que usam a mesma desde 2020-2021 (período testado) ainda podem estar com as redes de padrão frágeis (como já foi testado em 2023 onde moro). A funcionalidade deste script é justamente a criação de uma wordlist que vai certamente conter a senha padrão dentro para ser usado em um ataque de força bruta, conhecido como brute force, para descobrir se a rede usa senha padrão e/ou para ter acesso da mesma - fins acadêmicos.
 ![image](https://github.com/matheuslaidler/Gerador-Wordlist-WIFI/assets/76860503/ba9988d3-d31f-4959-a0de-06c9e987146d)
@@ -27,8 +31,8 @@
   Eu não tinha postado aqui antes pois, além de ser super simples e fácil de fazer, eu queria publicar um script mais completo que já tenha a opção de fazer o brute force direto, assim automatizaria ainda mais as coisas - essa ferramenta está praticamente pronta -, enquanto isso fiquem com essa ferramenta que já funciona.
 
   **Lembrando que este é um conteúdo criado com fins acadêmicos e não me responsabilizo por nenhum ato de terceiro, aqui é algo para estudo e que mostra a importância da configuração adequada de sua rede interna, coisa que a própria operadora recomenda.**
- 
-  
+ --
+  **Precisei censurar o nome da operadora por ter sido notificado via e-mail para tirar do ar. Foi feito por meses e agora recoloquei com o nome censurado, assim evitando problemas para a marca e seus clientes, peço perdão pelo incomodo**
 
 ## Modo de usar & Requisitos
 **Padrão de qualquer script shell**
