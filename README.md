@@ -33,25 +33,24 @@
 ## Modo de usar & Requisitos
 **Padrão de qualquer script shell**
  -  `bash wlgenerator.sh` ou `. wlgenerator.sh` já funciona normal .
- ![image](https://user-images.githubusercontent.com/76860503/199819242-cb07284d-e6cc-4d73-ac91-e5d9293b0a72.png)
+ ![image](https://github.com/matheuslaidler/Gerador-Wordlist-WIFI/assets/76860503/e8960e25-8e07-41b7-b2df-e426180fd7ea)
+
  
  -  `chmod +x wlgenerator.sh` para poder executá-lo `./wlgenerator.sh`
- ![image](https://user-images.githubusercontent.com/76860503/199819347-36fe84e0-f331-464d-9eae-80cd7f225ce2.png)
+![image](https://github.com/matheuslaidler/Gerador-Wordlist-WIFI/assets/76860503/9c9c26b3-3928-41ed-bc62-87752db77c98)
+
     - Mova-o pra dentro de /usr/bin: 
      `sudo mv wlgenerator.sh /usr/bin` para executá-lo de qualquer diretório
      
        > Execute usando somente o comando `./wlgenerator.sh`
        
-  ![image](https://user-images.githubusercontent.com/76860503/199819530-58bb37a9-5fdc-4ba8-873f-6fe16f313e63.png)
+    ![image](https://github.com/matheuslaidler/Gerador-Wordlist-WIFI/assets/76860503/e0a94676-b1e1-41ab-ada6-d11166f2ac31)
+
  - Colocar o nome da wifi como no exemplo e esperar a wordlist ser feita.
    - Quando ficar pronta ela vai abrir na tela do terminal, poderá apertar Q para fechar, End pra ir até a ultima linha, PagDn ou seta baixo para descer, PgUp ou seta cima para subir e Home pra voltar a primeira linha. 
    
-      ![image](https://user-images.githubusercontent.com/76860503/199819738-028f8d10-771d-46fb-bc27-9e39890f9217.png)
-   
    - Talvez eu mude essa parte e coloque se o usuário quer abrir pelo terminal ou não, caso não queira só pular essa parte, caso queira, venha esse cat com less que mostra a wordlist.
-    
-    #### Errata: O padrão não é dois caracteres depois do código no essid da rede, ele vem antes do código padrão. 
-    -  Já foi corrigido no texto e no script.
+
     
     
  **Requisito de uso**:
